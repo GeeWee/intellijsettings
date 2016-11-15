@@ -1,0 +1,32 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="EditorScrollToCenter" />
+  <action id="ExpandAllToLevel1">
+    <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="1" />
+    <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="numpad1" />
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="1" />
+  </action>
+  <action id="ExpandAllToLevel2">
+    <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="2" />
+    <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="numpad2" />
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="2" />
+  </action>
+  <action id="ExpandAllToLevel3">
+    <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="3" />
+    <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="numpad3" />
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="3" />
+  </action>
+  <action id="ExpandAllToLevel4">
+    <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="4" />
+    <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="numpad4" />
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="4" />
+  </action>
+  <action id="ExpandRegionRecursively">
+    <keyboard-shortcut first-keystroke="ctrl alt add" />
+    <keyboard-shortcut first-keystroke="ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="ctrl alt m" />
+  </action>
+  <action id="ExtractMethod" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+</keymap>
