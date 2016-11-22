@@ -1,0 +1,9 @@
+<templateSet group="react-typescript">
+  <template name="rety" value="export type $TYPECONST$ = '$STRING$';&#10;export const $TYPECONST$ : $TYPECONST$ = '$STRING$'; $END$" description="double type declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPECONST" expression="capitalizeAndUnderscore()" defaultValue="" alwaysStopAt="true" />
+    <variable name="STRING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
