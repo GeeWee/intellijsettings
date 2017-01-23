@@ -27,9 +27,9 @@
   <template name="cw" value="console.warn($var$);$END$" description="console warn" toReformat="true" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JS_STATEMENT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
       <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="re" value="const $name$ = require('$module$');" description="require" toReformat="false" toShortenFQNames="true">
