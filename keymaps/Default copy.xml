@@ -20,6 +20,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="numpad4" />
     <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="4" />
   </action>
+  <action id="ExpandLiveTemplateCustom">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
   <action id="ExpandRegionRecursively">
     <keyboard-shortcut first-keystroke="ctrl alt add" />
     <keyboard-shortcut first-keystroke="ctrl alt equals" />
