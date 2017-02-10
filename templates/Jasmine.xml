@@ -23,7 +23,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="jasb" value="beforeEach(function(){&#10;  $END$&#10;});" description="beforeEach" toReformat="true" toShortenFQNames="true">
+  <template name="jasb" value="beforeEach(() =&gt; {&#10;  $END$&#10;});" description="beforeEach" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -246,6 +246,12 @@
   <template name="expecthavebeencalledwith" value="expect($a$).toHaveBeenCalledWith($b$);&#10;$END$" description="Expect(X).toHaveBeenCalledWith(Y)" toReformat="true" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="jasia" value="it('$should$', async () =&gt; {&#10;    $END$&#10;});" description="Jasmine it async template" toReformat="true" toShortenFQNames="true">
+    <variable name="should" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
