@@ -103,7 +103,7 @@
   </template>
   <template name="imo" value="import { $IMPORTS$ } from '$LOCATION$';" description="import single object" toReformat="true" toShortenFQNames="true">
     <variable name="LOCATION" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="IMPORTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IMPORTS" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
