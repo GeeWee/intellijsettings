@@ -100,8 +100,8 @@
     <variable name="DI" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASSNAMECAMELCASE" expression="camelCase(CLASSNAME)" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JS_EXPRESSION" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
     </context>
   </template>
   <template name="ngwatch" value="$scope.$watch('$VAR$', ($NEWVALUE$, $OLDVALUE$) =&gt; {&#10;    if ($NEWVALUE$ !== $OLDVALUE$){&#10;        $END$&#10;    }   &#10;});" description="ng watch" toReformat="false" toShortenFQNames="true">
@@ -126,7 +126,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ngin" value="/*@ngInject*/" toReformat="true" toShortenFQNames="true">
+  <template name="ngin" value="/*@ngInject*/" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
