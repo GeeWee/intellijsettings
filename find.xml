@@ -1,8 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'step_rn_app'" />
-    <option name="defaultScopeName" value="Project 'step_rn_app'" />
-    <option name="SEARCH_SCOPE" value="Project 'step_rn_app'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.js" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
@@ -10,8 +11,6 @@
       <mask>*.java</mask>
       <mask>*.as</mask>
       <mask>*.mxml</mask>
-      <mask>*.js</mask>
-      <mask>*.j</mask>
       <mask>*.less,</mask>
       <mask>*.less, $</mask>
       <mask>*.less,</mask>
@@ -28,11 +27,14 @@
       <mask>*.les</mask>
       <mask>*.le</mask>
       <mask>*.l</mask>
-      <mask>*.</mask>
       <mask>*.t</mask>
       <mask>*.te</mask>
       <mask>*.test</mask>
       <mask>*.test*</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.j</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
