@@ -160,4 +160,11 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="imda" value="import * as $IMPORTS$ from '$LOCATION$';" description="import default as" toReformat="true" toShortenFQNames="true">
+    <variable name="LOCATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IMPORTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
