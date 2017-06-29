@@ -93,7 +93,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="eee" value="$PARAMS$ =&gt; $END$" description="one line lambda" toReformat="true" toShortenFQNames="true">
+  <template name="qq" value="$PARAMS$ =&gt; $END$" description="one line lambda" toReformat="true" toShortenFQNames="true">
     <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JSX_HTML" value="true" />
