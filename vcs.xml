@@ -50,6 +50,10 @@
           <option name="url" value="git@bitbucket.org:bambuuio/mobilepayshopper.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/GeeWee/plugin-typescript.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\gusta\Documents" />
