@@ -1,0 +1,8 @@
+<templateSet group="JavaScript">
+  <template name="rfco" value="import { observer } from 'mobx-react';&#10;import * as React from 'react';&#10;&#10;interface Props{&#10;&#10;}&#10;&#10;export const $NAME$ = observer((props : Props) =&gt; {&#10;&#9;return &lt;div&gt;&#10;&#9;&#9;$END$&#10;&#9;&lt;/div&gt;&#10;&#9;&#10;&#9;}&#10;);&#10;" description="react functional component" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
