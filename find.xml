@@ -5,7 +5,7 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.tsx*" />
+    <option name="FILE_MASK" value="*.ts*" />
     <recentFileMasks>
       <mask>*.less,</mask>
       <mask>*.less, *</mask>
@@ -26,8 +26,6 @@
       <mask>*.test*</mask>
       <mask>*.j</mask>
       <mask>*</mask>
-      <mask>*.tsx</mask>
-      <mask>*.ts</mask>
       <mask>*.t</mask>
       <mask>*.</mask>
       <mask>*.js</mask>
@@ -35,8 +33,10 @@
       <mask>*.s*</mask>
       <mask>*.tssx*</mask>
       <mask>*.tss*</mask>
-      <mask>*.ts*</mask>
       <mask>*.tsx*</mask>
+      <mask>*.tsx</mask>
+      <mask>*.ts</mask>
+      <mask>*.ts*</mask>
     </recentFileMasks>
   </component>
 </application>
