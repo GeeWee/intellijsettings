@@ -172,7 +172,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="exf" value="export function $NAME$($ARGS$) {&#10;$END$&#10;}" toReformat="true" toShortenFQNames="true">
+  <template name="exf" value="export function $NAME$($ARGS$) {&#10;$END$&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -180,7 +180,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="exaf" value="export async function $NAME$($ARGS$) {&#10;$END$&#10;}" toReformat="true" toShortenFQNames="true">
+  <template name="exaf" value="export async function $NAME$($ARGS$) {&#10;$END$&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
