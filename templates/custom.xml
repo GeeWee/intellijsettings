@@ -188,4 +188,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="mobx" value="import { action, observable } from 'mobx';&#10;&#10;export class $STORENAME$ {&#10;&#9;@observable username: string; $END$&#10;}" description="mobx store" toReformat="true" toShortenFQNames="true">
+    <variable name="STORENAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
