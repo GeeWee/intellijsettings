@@ -1,6 +1,7 @@
 <templateSet group="user">
-  <template name="&lt;abbreviation&gt;" value="import { action, observable } from 'mobx';&#10;&#10;export class LoginStore {&#10;&#9;@observable username: string;&#10;}" toReformat="true" toShortenFQNames="true">
+  <template name="imr" value="import * as React from 'react';" toReformat="true" toShortenFQNames="true">
     <context>
+      <option name="JSX_HTML" value="true" />
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
